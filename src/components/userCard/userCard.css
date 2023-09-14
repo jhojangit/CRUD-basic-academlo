@@ -1,0 +1,56 @@
+.user__container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+
+.user {
+  background-color: rgb(17, 19, 37);
+  border: 0.05em solid rgba(165, 158, 158, 0.096);
+  border-radius: 1rem;
+  width: 100%;
+  max-width:300px;
+  display: flex;
+  flex-direction: column;
+  padding-right: 1rem;
+}
+
+.user__name{
+  text-align: center;
+}
+
+
+.user__list{
+  list-style: none;
+}
+
+.user__list li{
+  padding-bottom: 1rem;
+}
+
+.user__list span{
+  padding-left: 1.7rem;
+  font-weight: bold;
+}
+
+
+.user__footer{
+  height: 100%;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+}
+
+.btn__h{
+  height: 40px;
+}
+
+.user__delete{
+  background-color: rgb(216, 5, 58);
+}
+
+.user__update{
+  background-color: rgb(50, 58, 58);
+}

@@ -1,0 +1,15 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+}
+
+header button{
+    width: 140px;
+    background-color: rgb(98, 100, 102);
+}
+
+header button:hover{
+    background-color: rgb(49, 70, 88);
+}
+

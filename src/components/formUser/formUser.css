@@ -1,0 +1,73 @@
+.form__container{
+    background-color: rgba(129, 135, 139, 0.452);
+    backdrop-filter: blur(1.5px);
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform .3s;
+}
+
+.close{
+    transform: scale(0);
+}
+
+form{
+    background-color: rgb(215, 219, 228);
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 2rem;
+    padding: 1rem;
+}
+
+
+label{
+    color: rgb(63, 63, 65);
+    font-weight: 500;
+    
+}
+
+.x{
+    width: 100%;
+    position: relative;
+}
+
+.bxs-x-circle{
+    position: absolute;
+    color: black;
+    right: 1rem;
+    cursor: pointer;
+}
+
+.bxs-x-circle:hover{
+    color: rgb(167, 10, 10);
+    padding-left: 80%;
+}
+
+.h3__create{
+    color: rgb(30, 25, 66);
+}
+
+
+button{
+    margin-top: 1rem;
+}
+
+::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+
+
+
+@media (min-width: 500px){
+    form{
+        width: 50%;
+    }
+}

@@ -1,0 +1,21 @@
+.create__message--container h3{
+    padding: 0;
+    margin: 0;
+}
+
+.create__message--container{
+    background-color: rgb(16, 128, 31);
+    height: 4rem;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    transition: top 1s;
+}
+
+.close--create{
+    top:-200px;
+}
